@@ -20,5 +20,5 @@ jobs:
 
       - name: Display Go Version
         run: |
-          go version
+          go test ./...
           exit 0

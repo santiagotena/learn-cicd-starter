@@ -1,5 +1,7 @@
 package main
 
+lol broken
+
 import (
 	"database/sql"
 	"embed"
