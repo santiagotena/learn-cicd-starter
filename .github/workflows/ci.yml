@@ -22,3 +22,11 @@ jobs:
         run: |
           go test -cover ./...
           exit 0
+
+   style:
+      name: Style
+      runs-on: ubuntu-latest
+
+   steps:
+      - name: Format check
+        run: test -z $(go fmt ./...)
