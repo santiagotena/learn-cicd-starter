@@ -5,4 +5,4 @@ if [ -f .env ]; then
 fi
 
 cd sql/schema
-goose turso $DATABASE_URL up -token $TURSO_AUTH_TOKEN
+goose turso $DATABASE_URL up
